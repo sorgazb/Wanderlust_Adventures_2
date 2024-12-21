@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust Adventures - Contacto</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/columnas.css">
+</head>
+
+<body>
+  <a id="inicio"></a>
+  <div class="contenedor-header">
+    <header>
+      <a href="index.html" class="logo-texto">
+        <img src="img/logo.png" alt="Logo de la página"/>
+        <span class="texto-logo">Wanderlust</span>
+      </a>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="destinos.html">Destinos</a>
+        <a href="consejos.html">Consejos</a>
+        <a href="contacto.html"  id="active">Contacto</a>
+      </nav>
+    </header>
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Contacto</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-t-6 col-d-7  card-strech">
+          <form class="card contact-form">
+            <div class="row">
+              <div class="col-12 col-t-4 col-d-3">
+                <label for="name">Nombre:</label>
+              </div>
+              <div class="col-12 col-t-8 col-d-9 campos-formulario">
+                <input type="text" id="name" name="name" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-t-4 col-d-3">
+                <label for="email">Email:</label>
+              </div>
+              <div class="col-12 col-t-8 col-d-9 campos-formulario">
+                <input type="email" id="email" name="email" required>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 col-t-4 col-d-3">
+                <label for="message">Mensaje:</label>
+              </div>
+              <div class="col-12 col-t-8 col-d-9 campos-formulario">
+                <textarea id="message" name="message" required></textarea>
+              </div>
+            </div>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+
+        <div class="col-12 col-t-6 col-d-5 card-strech">
+          <div class="card contact-info">
+            <h2>Información de Contacto</h2>
+            <p>Email: info@wanderlustadventures.com</p>
+            <p>Teléfono: +34 123 456 789</p>
+            <p class="mb-1">Dirección: Calle Viajera 123, 28001 Madrid, España</p>
+            <img class="aspect-ratio-4-3" src="https://picsum.photos/seed/office/400/300" alt="Nuestra oficina">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="contenedor-footer">
+    <footer>
+      <div>
+        <a href="https://github.com/sorgazb01/P1-SERGIO-DANIEL">
+          <img src="img/git-icon-white.png" alt="Imagen Git"/>
+          <span>Wanderlust Adventures. 2024</span>
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/Dcuriel01" class="clearfix">
+          <img src="img/github-mark-white.png" alt="Imagen GitHub"/>
+          <span>Daniel Curiel Mora</span>
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/sorgazb01">
+          <img src="img/github-mark-white.png" alt="Imagen GitHub"/>
+          <span>Sergio Orgaz Bravo</span>
+        </a>
+      </div>
+    </footer>
+  </div>
+
+  <a href="#inicio" class="botonDesplazamiento">↑</a>
+
+</body>
+
+</html>
